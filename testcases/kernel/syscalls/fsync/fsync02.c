@@ -63,7 +63,7 @@ static void run(void) {
 	while (max_block <= data_blocks) {
 		random_number = rand();
 		max_block = random_number % max_blks;
-		data_blocks = random_number % 1000 + 1;
+		data_blocks = max_blks % random_number;
 	}
 
 	for (i = 1; i <= data_blocks; i++) {
