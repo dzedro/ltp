@@ -20,7 +20,7 @@
 #endif
 #include <semaphore.h>
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 #include <time.h>
 #include <unistd.h>
 #include "posixtest.h"
